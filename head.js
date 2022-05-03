@@ -6,10 +6,11 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const head = function(array){
+const head = function(array) {
   return array[0];
 };
 
 assertEqual(head([11,12,14]), 11);
 assertEqual(head(["Kelly", "Pam", "Jim"]), "Kelly");
-assertEqual(head([]), 5); 
+assertEqual(head([]), 5);
+
