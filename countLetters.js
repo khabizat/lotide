@@ -21,3 +21,5 @@ const countLetters = function(sentence){
 }
 
 console.log(countLetters('Hi my name is Kabby'));
+
+module.exports = countLetters;
