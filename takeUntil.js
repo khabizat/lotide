@@ -41,3 +41,5 @@ console.log('---');
 const data2 = ['green', 'yellow', 'green', 'red', 'yellow', 'green'];
 const results2 = takeUntil(data2, x => x === 'red');
 assertArraysEqual(results2, ['green', 'yellow', 'green']);
+
+module.exports = takeUntil;
