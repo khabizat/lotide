@@ -1,3 +1,5 @@
+const chai = require('chai');
+
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
@@ -49,3 +51,6 @@ const cd2 = { c: "1", d: ["2", 3, 4] };
 // console.log(eqObjects(cd, cd2)); // => false
 assertObjectsEqual(eqObjects(cd, dc), true);
 assertObjectsEqual(eqObjects(cd, cd2), false);
+
+
+module.exports = assertObjectsEqual;
