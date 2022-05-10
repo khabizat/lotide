@@ -41,5 +41,5 @@ assertArraysEqual(map(words, word => word[word.length - 1]), [ 'd', 'l', 'o', 'r
 assertArraysEqual(map(words, word => word[0].toUpperCase()), [ 'G', 'C', 'T', 'M', 'T' ]);
 
 
-
+module.exports = map;
 
